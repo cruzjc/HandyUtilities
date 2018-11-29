@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLibrary", "StringLibrary\StringLibrary.csproj", "{78A5690B-A3CF-4DE4-BCA3-5D95033AAB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringLibrary", "StringLibrary\StringLibrary.csproj", "{78A5690B-A3CF-4DE4-BCA3-5D95033AAB49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringLibraryTest", "StringLibraryTest\StringLibraryTest.csproj", "{79093156-6F6B-4C9C-8BA8-CE26DE7961C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringLibraryTest", "StringLibraryTest\StringLibraryTest.csproj", "{79093156-6F6B-4C9C-8BA8-CE26DE7961C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscellaneousLibrary", "MiscellaneousLibrary\MiscellaneousLibrary.csproj", "{A7E9B9EC-1869-4356-843A-E977D2D9BD33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiscellaneousLibraryTest", "MiscellaneousLibraryTest\MiscellaneousLibraryTest.csproj", "{705D2B2C-4608-4CB2-9682-2A264DC5A53F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{79093156-6F6B-4C9C-8BA8-CE26DE7961C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79093156-6F6B-4C9C-8BA8-CE26DE7961C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79093156-6F6B-4C9C-8BA8-CE26DE7961C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E9B9EC-1869-4356-843A-E977D2D9BD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E9B9EC-1869-4356-843A-E977D2D9BD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E9B9EC-1869-4356-843A-E977D2D9BD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E9B9EC-1869-4356-843A-E977D2D9BD33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705D2B2C-4608-4CB2-9682-2A264DC5A53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705D2B2C-4608-4CB2-9682-2A264DC5A53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705D2B2C-4608-4CB2-9682-2A264DC5A53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705D2B2C-4608-4CB2-9682-2A264DC5A53F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

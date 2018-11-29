@@ -1,0 +1,6 @@
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\bin\Debug\MiscellaneousLibrary.dll
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\bin\Debug\MiscellaneousLibrary.pdb
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Debug\MiscellaneousLibrary.csprojAssemblyReference.cache
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Debug\MiscellaneousLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Debug\MiscellaneousLibrary.dll
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Debug\MiscellaneousLibrary.pdb
