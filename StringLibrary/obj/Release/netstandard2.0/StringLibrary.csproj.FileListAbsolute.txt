@@ -7,3 +7,12 @@ C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\Str
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfo.cs
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.dll
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.pdb
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.deps.json
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.dll
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.pdb
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.csprojAssemblyReference.cache
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfo.cs
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.dll
+C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.pdb
