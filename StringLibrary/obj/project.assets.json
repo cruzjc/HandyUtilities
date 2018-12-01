@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rawrt\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\StringLibrary.csproj",
+      "projectUniqueName": "D:\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\StringLibrary.csproj",
       "projectName": "StringLibrary",
-      "projectPath": "C:\\Users\\rawrt\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\StringLibrary.csproj",
+      "projectPath": "D:\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\StringLibrary.csproj",
       "packagesPath": "C:\\Users\\rawrt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rawrt\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\obj\\",
+      "outputPath": "D:\\OneDrive - hawaii.edu\\Development\\VisualStudio\\HandyUtilities\\HandyUtilities\\StringLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

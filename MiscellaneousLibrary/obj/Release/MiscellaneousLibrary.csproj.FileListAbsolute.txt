@@ -4,3 +4,9 @@ C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\Han
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.csproj.CoreCompileInputs.cache
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.dll
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.pdb
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\bin\Release\MiscellaneousLibrary.dll
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\bin\Release\MiscellaneousLibrary.pdb
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.csprojAssemblyReference.cache
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.csproj.CoreCompileInputs.cache
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.dll
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\MiscellaneousLibrary\obj\Release\MiscellaneousLibrary.pdb

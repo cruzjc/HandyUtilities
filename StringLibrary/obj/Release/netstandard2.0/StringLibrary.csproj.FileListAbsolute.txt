@@ -16,3 +16,12 @@ C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\Han
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfo.cs
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.dll
 C:\Users\rawrt\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.pdb
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.deps.json
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.dll
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\bin\Release\netstandard2.0\StringLibrary.pdb
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.csprojAssemblyReference.cache
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.csproj.CoreCompileInputs.cache
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfoInputs.cache
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.AssemblyInfo.cs
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.dll
+D:\OneDrive - hawaii.edu\Development\VisualStudio\HandyUtilities\HandyUtilities\StringLibrary\obj\Release\netstandard2.0\StringLibrary.pdb
