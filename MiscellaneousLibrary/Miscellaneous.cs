@@ -5,6 +5,18 @@ using System.Diagnostics;
 //passing functions as a parameter for methods
 //https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates
 
+//variable parameters
+//https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/params
+
+//like a mapping function
+//https://www.dotnetperls.com/select 
+
+//parallel foreach
+//https://www.c-sharpcorner.com/UploadFile/efa3cf/parallel-foreach-vs-foreach-loop-in-C-Sharp/
+
+//using query
+//https://stackoverflow.com/questions/982595/how-to-break-out-of-2-loops-without-a-flag-variable-in-c
+
 namespace UtilityLibraries
 {
     public class Miscellaneous {
@@ -80,6 +92,62 @@ namespace UtilityLibraries
             Console.WriteLine("LoopSafeGuard End");
         }        
 
+        //todo summary
+        public static bool CompareCsvValues(string csvValue1,string csvValue2) {
+            string[] csvValue1Parsed = csvValue1.Split(',');
+            string[] csvValue2Parsed = csvValue2.Split(',');
+
+            foreach(string value1 in csvValue1Parsed) {
+                foreach(string value2 in csvValue1Parsed) {
+                    if (csvValue1 != csvValue2) {
+                        return false;
+                    }
+                    continue;
+                }
+            }
+            return true;
+        }
+
+        //todo summary
+        public static bool CompareCsvValues(string csvValue1, string csvValue2, params int[] indexExclusions) {
+            string[] csvValue1Parsed = csvValue1.Split(',');
+            string[] csvValue2Parsed = csvValue2.Split(',');
+
+            for (int i = 0; i < csvValue1Parsed.Length; i++) {
+                foreach (int indexExclusion in indexExclusions) {
+                    if (i == indexExclusion) {
+                        goto SkipColumn;
+                    }
+                }
+
+                //Console.WriteLine("Comparing {0} and {1}",csvValue2Parsed[i], csvValue2Parsed[i]);
+                if (csvValue1Parsed[i] != csvValue2Parsed[i]) {
+                    return false;
+                }
+
+                SkipColumn:;
+
+            }
+            return true;
+        }
+
+        //todo summary
+        public static bool CompareCsvValues(string csvValue1,string csvValue2,int indexExclusion) {
+            string[] csvValue1Parsed = csvValue1.Split(',');
+            string[] csvValue2Parsed = csvValue2.Split(',');
+
+            for(int i = 0; i < csvValue1Parsed.Length; i++) {
+                if(i == indexExclusion) {
+                    continue;
+                }
+
+                if (csvValue1Parsed[i] != csvValue2Parsed[i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
 
     }
 
@@ -103,6 +171,7 @@ namespace UtilityLibraries
             }
             return result;
         }
+
     }
 
 }
