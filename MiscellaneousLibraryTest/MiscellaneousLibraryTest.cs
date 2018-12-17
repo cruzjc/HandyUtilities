@@ -8,6 +8,7 @@ namespace MiscellaneousLibraryTest
     [TestClass]
     public class MiscellaneousLibraryTest
     {
+        #region Miscellanaeous
         [TestMethod]
         public void TestCheckForDuplicates()
         {
@@ -57,7 +58,7 @@ namespace MiscellaneousLibraryTest
                 }
             }
         }
-        
+
         [TestMethod]
         public void TestLoopSafeGuardPassInfiniteFunctionAsParameter() {
             float timeOut = 2;
@@ -95,30 +96,6 @@ namespace MiscellaneousLibraryTest
                 //Console.WriteLine("External Function End");
             } finally {
                 Assert.IsTrue(result);
-            }
-
-        }
-
-        [TestMethod]
-        public void TestFunctionPairPermutation() {
-            int[] intArray = {1,2,3,4,5};
-            int[,] result=new int[intArray.Length,intArray.Length];
-            try {
-                result=Miscellaneous<int>.FunctionPairPermutation(
-                    intArray,
-                    (x, y) => {
-                        //Console.WriteLine("{0}+{1}={2}", x, y, (x + y));
-                        return (x + y);
-                    });
-
-            } finally {
-                for(int i = 0; i < result.GetLength(0); i++) {
-                    for(int j=0;j < result.GetLength(1); j++) {
-                        //Console.WriteLine("result [{0}][{1}]= {2}", i,j,result[i,j]);
-                        int expected = intArray[i]+intArray[j];
-                        Assert.AreEqual<int>(expected, result[i, j]);
-                    }
-                }
             }
 
         }
@@ -177,7 +154,53 @@ namespace MiscellaneousLibraryTest
             Assert.IsFalse(result);
         }
 
+        #endregion Miscellanaeous
+
+        #region Miscellanaeous<T>
+        [TestMethod]
+        public void TestFunctionPairPermutation() {
+            int[] intArray = {1,2,3,4,5};
+            int[,] result=new int[intArray.Length,intArray.Length];
+            try {
+                result=Miscellaneous<int>.FunctionPairPermutation(
+                    intArray,
+                    (x, y) => {
+                        //Console.WriteLine("{0}+{1}={2}", x, y, (x + y));
+                        return (x + y);
+                    });
+
+            } finally {
+                for(int i = 0; i < result.GetLength(0); i++) {
+                    for(int j=0;j < result.GetLength(1); j++) {
+                        //Console.WriteLine("result [{0}][{1}]= {2}", i,j,result[i,j]);
+                        int expected = intArray[i]+intArray[j];
+                        Assert.AreEqual<int>(expected, result[i, j]);
+                    }
+                }
+            }
+
+        }
+        #endregion Miscellanaeous<T>
+
+        #region FileOperations
+        [TestMethod]
+        public void CreateEmptyFileTest() {
+            try {
+                FileOperations.CreateEmptyFile("EmptyFile.txt");
+            } finally {
+                Console.WriteLine("Created File");
+            }
+        }
 
 
+        [TestMethod]
+        public void EncrypteFileTest() {
+            try {
+                FileOperations.EncryptFile("EmptyFile.txt");
+            } finally {
+                Console.WriteLine("Created File");
+            }
+        }
+        #endregion
     }
 }

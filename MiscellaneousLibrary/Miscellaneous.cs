@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Diagnostics;
+using System.IO;
 
 //passing functions as a parameter for methods
 //https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates
@@ -51,6 +52,51 @@ namespace UtilityLibraries
             int temp;
             Random random = new Random();
             for (int i = 0; i < listSize; i++) {
+                randomIndex = random.Next(listSize);
+                temp = result[i];
+                result[i] = result[randomIndex];
+                result[randomIndex] = temp;
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// random order generator function
+        /// 
+        /// generates a list from 0 to 'n'
+        /// iterates through the list starting
+        /// at zero, and swaps with a random index
+        /// has two of each number
+        /// 
+        /// 
+        /// </summary>
+        /// <param name="listSize">
+        /// the length of a list size 'n'
+        /// </param>
+        /// <returns>
+        /// an int array containing numbers from
+        /// 0 (inclusive) up to 'n' (exclusive)
+        /// not in order
+        /// </returns>
+        public static int[] RandomIntegerOrderDouble(int listSize) {
+            int[] result = new int[listSize*2];
+
+            //O(n)
+            for (int i = 0; i < listSize; i++) {
+                result[i] = i;
+            }
+
+            //O(n)
+            for (int i = 0; i < listSize; i++) {
+                result[i+listSize] = i;
+            }
+
+
+            //O(n)
+            int randomIndex;
+            int temp;
+            Random random = new Random();
+            for (int i = 0; i < listSize*2; i++) {
                 randomIndex = random.Next(listSize);
                 temp = result[i];
                 result[i] = result[randomIndex];
@@ -170,6 +216,27 @@ namespace UtilityLibraries
 
             }
             return result;
+        }
+
+    }
+
+    public class FileOperations {
+
+        public static void CreateEmptyFile(string fileName) {
+            FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.Write);
+            fileStream.Close();
+        }
+
+        public static void EncryptFile(string fileName) {
+            FileStream fileStream = new FileStream(fileName, FileMode.Open, FileAccess.ReadWrite);
+
+            while (fileStream.CanRead) {
+                Console.Write(fileStream.ReadByte());
+            }
+
+
+            fileStream.Close();
+
         }
 
     }
